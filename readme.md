@@ -1,10 +1,6 @@
-![Image 1](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmX.png)
 <img src="https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmX.png" alt="Image Description" width="500" />
-
-![Image 2](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmY.png)
-![Image 3](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmZ.png)
-
-
+<img src="https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmY.png" alt="Image Description" width="500" />
+<img src="https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmZ.png" alt="Image Description" width="500" />
 
 
 # Clipboard Transform
