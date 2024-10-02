@@ -1,4 +1,6 @@
 ![Image 1](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmX.png)
+![Image 2](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmY.png)
+![Image 3](https://raw.githubusercontent.com/Hridesh-Srivastava/clipboard-text-transform/main/images/npmZ.png)
 
 
 
