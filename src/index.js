@@ -16,3 +16,24 @@ export const copyToClipboard = async (text) => {
         console.error('⚠️ Oops! Clipboard API not supported.');
     }
 };
+
+export const applyTransformation = async (text, mode) => {
+    let transformedText;
+
+    switch (mode) {
+        case 'upper':
+            transformedText = transformToUpper(text);
+            break;
+        case 'lower':
+            transformedText = transformToLower(text);
+            break;
+        case 'camel':
+            transformedText = transformToCamel(text);
+            break;
+        default:
+            transformedText = text; 
+    }
+
+    await copyToClipboard(transformedText);
+    return transformedText; 
+};

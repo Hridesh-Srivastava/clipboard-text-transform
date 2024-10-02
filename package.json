@@ -1,13 +1,13 @@
 {
-  "name": "clipboard-text-transform",
+  "name": "clipboard-transform",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "npm test dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hridesh",
   "license": "Apache-2.0",
-  "description": ""
+  "description": "A utility for transforming text and copying it to the clipboard."
 }
