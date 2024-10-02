@@ -16,6 +16,8 @@
 </head>
 <body>
     <!--  Using HTML you can implement this code example  -->
+    <h1 style="color:rgb(200, 255, 0);text-align:center;">Welcome to clipboard transform</h1>
+    <br>
     <h1 style="color:aqua;text-align:center;" id="output">Text will be copied to clipboard</h1>
 
     <script type="module">
@@ -26,7 +28,7 @@
 
         applyTransformation(text, mode).then(result => {
             console.log(`Transformed Text: ${result}`);
-            document.getElementById('output').textContent = `Your text successfully copied to clipboard!`;
+            document.getElementById('output').textContent = `✅ Your text successfully copied to clipboard.`;
         });
     </script>
 </body>

@@ -2,6 +2,7 @@
 
 ## Description
 The `clipboard-transform` package allows you to easily transform text to different formats such as uppercase, lowercase, and camel case. It also provides functionality to copy transformed text directly to the clipboard.
+The modes you can use for conversions are : <pre> 'upper' , 'lower' , 'camel' </pre>
 
 ## Installation
 To install the package, run the following command in your terminal:
@@ -57,6 +58,8 @@ You can also use this package in a browser environment by including the provided
     </style>
 </head>
 <body>
+     <h1 style="color:rgb(200, 255, 0);text-align:center;">Welcome to clipboard transform</h1>
+    <br>
     <h1 style="color:aqua;text-align:center;" id="output">Text will be copied to clipboard</h1>
 
     <script type="module">
@@ -67,7 +70,7 @@ You can also use this package in a browser environment by including the provided
 
         applyTransformation(text, mode).then(result => {
             console.log(`Transformed Text: ${result}`);
-            document.getElementById('output').textContent = `Your text successfully copied to clipboard!`;
+            document.getElementById('output').textContent = `✅ Your text successfully copied to clipboard.`;
         });
     </script>
 </body>
