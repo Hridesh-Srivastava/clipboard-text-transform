@@ -1,0 +1,33 @@
+<!-- THIS EXAMPLE TO IMPLEMENT AS HTML USAGE (OUTSIDE THE NODE.JS ENVIRONMENT)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Transform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: gray;
+        }
+       
+    </style>
+</head>
+<body>
+    <!--  Using HTML you can implement this code example  -->
+    <h1 style="color:aqua;text-align:center;" id="output">Text will be copied to clipboard</h1>
+
+    <script type="module">
+        import { applyTransformation } from './node_modules/clipboard-transform/src/index.js'; 
+
+        const text = "Hridesh srivastava";
+        const mode = "upper"; // Modes: 'upper', 'lower', 'camel'
+
+        applyTransformation(text, mode).then(result => {
+            console.log(`Transformed Text: ${result}`);
+            document.getElementById('output').textContent = `Your text successfully copied to clipboard!`;
+        });
+    </script>
+</body>
+</html>

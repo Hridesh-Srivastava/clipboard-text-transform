@@ -9,11 +9,11 @@ export const transformToCamel = (text) => {
 };
 
 export const copyToClipboard = async (text) => {
-    if (navigator.clipboard) {
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
         await navigator.clipboard.writeText(text);
         console.log('📋 Text copied to clipboard!');
     } else {
-        console.error('⚠️ Oops! Clipboard API not supported.');
+        console.error('⚠️  Oops! Clipboard API not supported. Running outside of a browser environment.');
     }
 };
 
